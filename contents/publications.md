@@ -1,4 +1,4 @@
-#### English
+#### English Journals
 
 - **Guo, D.**, Qu, R., Wang, Y., & Xu, J. (2025). Social media and citizen mobilization: How Chinese government agencies use Weibo to advance the 2030 agenda goals on sustainability. ***Public Relations Review***, 51(3), 102579. **(SSCI Q1)**
 
@@ -24,7 +24,7 @@
 
 - Gao, H., **Guo, D.**, Wu, J., & Li, L. (2022). Weibo users' emotion and sentiment orientation in Traditional Chinese Medicine (TCM) during the COVID-19 pandemic. ***Disaster Medicine and Public Health Preparedness***, 16(5), 1835-1838. **(SSCI Q3)**
 
-#### 中文
+#### 中文期刊
 
 6. 徐敬宏, & **郭迪帆 (通讯作者)**. (2025). 大语言模型在新闻传播学研究中的应用——以数据生成、分析、模拟为例. ***全球传媒学刊***, 12(2), 3–20. **(CSSCI)**
 
