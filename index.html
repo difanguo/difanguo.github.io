@@ -94,24 +94,23 @@
             <header>
                 <h2 id="home-subtitle"> </h2>
             </header>
-            <div class="main-body" id="home-md">
-                <!-- Home content will be loaded here -->
-            </div>
+            <div class="main-body" id="home-md"></div>
         </div>
     </section>
 
-    <!-- News - Gray (changed from white) -->
+    <!-- News - Gray -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="news">
         <div class="container px-5">
             <header>
                 <h2 id="news-subtitle"><i class="bi bi-award-fill"></i>NEWS</h2>
             </header>
             <div class="main-body" id="news-md">
-                <h3>Latest Updates</h3>
-                <ul>
-                    <li>There are no enrollment plans for the current academic year (September 2025 to June 2026).</li>
-                    <li>本学年（2025年9月至2026年6月）暂无招生计划。</li>
-                </ul>
+                <div class="text-center py-4">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p>Loading news...</p>
+                </div>
             </div>
         </div>
     </section>
@@ -122,9 +121,7 @@
             <header>
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
             </header>
-            <div class="main-body" id="publications-md">
-                <!-- Publications content will be loaded here -->
-            </div>
+            <div class="main-body" id="publications-md"></div>
         </div>
     </section>
 
@@ -135,13 +132,12 @@
                 <h2 id="conference-subtitle"><i class="bi bi-file-earmark-ppt-fill"></i>&nbsp;CONFERENCE PAPERS</h2>
             </header>
             <div class="main-body" id="conference-md">
-                <h3>Research Interests</h3>
-                <p>Current research focuses include:</p>
-                <ul>
-                    <li>Artificial Intelligence Applications</li>
-                    <li>Data Communication Systems</li>
-                    <li>Human-Computer Interaction</li>
-                </ul>
+                <div class="text-center py-4">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p>Loading conference papers...</p>
+                </div>
             </div>
         </div>
     </section>
@@ -160,36 +156,49 @@
 
     <!-- Content Loading Script -->
     <script>
-        // Function to load content with error handling
-        function loadContent(elementId, filePath) {
-            fetch(filePath)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Failed to load ${filePath}: ${response.status}`);
-                    }
-                    return response.text();
-                })
-                .then(text => {
-                    // Only update if content exists
-                    if (text.trim().length > 0) {
-                        document.getElementById(elementId).innerHTML = marked.parse(text);
-                    }
-                })
-                .catch(error => {
-                    console.error('Content load error:', error);
-                    // Don't show error message if we already have default content
-                });
+        // Enhanced content loader with retries
+        async function loadMarkdownContent(elementId, filePath, retries = 3) {
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                
+                const text = await response.text();
+                if (!text.trim()) throw new Error('Empty file content');
+                
+                document.getElementById(elementId).innerHTML = marked.parse(text);
+            } catch (error) {
+                if (retries > 0) {
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                    return loadMarkdownContent(elementId, filePath, retries - 1);
+                }
+                
+                document.getElementById(elementId).innerHTML = `
+                    <div class="alert alert-warning">
+                        <p>Failed to load content from: <code>${filePath}</code></p>
+                        <p>Error: ${error.message}</p>
+                        <p>Please ensure:</p>
+                        <ul>
+                            <li>File exists at <strong>${filePath}</strong></li>
+                            <li>File contains valid Markdown content</li>
+                            <li>Check browser console (F12) for details</li>
+                        </ul>
+                    </div>
+                `;
+                console.error(`Error loading ${filePath}:`, error);
+            }
         }
 
-        // Load all sections when DOM is ready
+        // Load all content when DOM is ready
         document.addEventListener('DOMContentLoaded', function() {
-            // Load news content
-            loadContent('news-md', 'static/content/news.txt');
+            // Load news content from contents/news.md
+            loadMarkdownContent('news-md', 'contents/news.md');
             
-            // Load conference papers content
-            loadContent('conference-md', 'static/content/conference.txt');
+            // Load conference papers from contents/conference.md
+            loadMarkdownContent('conference-md', 'contents/conference.md');
             
-            // Load other content as needed...
+            // Load other content (publications, home, etc.) as needed...
+            // loadMarkdownContent('publications-md', 'contents/publications.md');
+            // loadMarkdownContent('home-md', 'contents/home.md');
         });
     </script>
 </body>
