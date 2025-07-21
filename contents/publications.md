@@ -1,4 +1,5 @@
 #### English Journal Papers
+<pre>
 18) **Guo, D.**, Qu, R., Wang, Y., & Xu, J. (2025). Social media and citizen mobilization: How Chinese government agencies use Weibo to advance the 2030 agenda goals on sustainability. ***Public Relations Review***, 51(3), 102579. **(SSCI Q1)**
 
 17) Xu, J., Qu, R., Kim, H. K., & **Guo, D. (corresponding author)** (2025). Chinese Netizens' Perceptions and Attitudes Towards Carbon Neutrality: A Mixed Methods Study. ***International Journal of Public Opinion Research***, 37(3), edaf034. **(SSCI Q2)**
@@ -34,9 +35,9 @@
 2) Gao, H., **Guo, D. (co-first authors)**, Wu, J., Zhao, Q., & Li, L. (2021). Changes of the public attitudes of China to domestic COVID-19 vaccination after the vaccines were approved: a semantic network and sentiment analysis based on sina weibo texts. ***Frontiers in Public Health***, 9, 723015. **(SSCI Q1)**
 
 1) **Guo, D.**, Zhao, Q., Chen, Q., Wu, J., Li, L., & Gao, H. (2021). Comparison between sentiments of people from affected and non-affected regions after the flood. Geomatics, ***Natural Hazards and Risk***, 12(1), 3346-3357. **(SCI Q2)**
-
+<pre>
 #### 中文期刊论文
-
+<pre>
 6) 徐敬宏, & **郭迪帆 (通讯作者)**. (2025). 大语言模型在新闻传播学研究中的应用——以数据生成、分析、模拟为例. ***全球传媒学刊***, 12(2), 3–20. **(CSSCI)**
 
 5) 徐敬宏, & **郭迪帆**. (2025). 巧用大语言模型：传播学文本数据的半自动编码研究. ***当代传播***, (3), 65–69. **(CSSCI)**
@@ -48,3 +49,4 @@
 2) **郭迪帆**, & 潘政治. (2022). 我国主流媒体国际传播的实践经验及可行路径——以云南大象迁徙视频海外传播为例. ***当代电视***, (5), 53–56+7. **(CSSCI扩)**
 
 1) 高昊, & **郭迪帆**. (2021). 日本公共图书馆应对新冠疫情的策略及启示. ***图书馆学研究***, (4), 83–89. **(CSSCI)**
+<pre>
