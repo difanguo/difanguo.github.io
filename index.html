@@ -88,43 +88,61 @@
         </div>
     </div>
     
-    <!-- Home -->
+    <!-- Home - White -->
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
             <header>
                 <h2 id="home-subtitle"> </h2>
             </header>
-            <div class="main-body" id="home-md"></div>
+            <div class="main-body" id="home-md">
+                <!-- Home content will be loaded here -->
+            </div>
         </div>
     </section>
 
-    <!-- News -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="news">
+    <!-- News - Gray (changed from white) -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="news">
         <div class="container px-5">
             <header>
                 <h2 id="news-subtitle"><i class="bi bi-award-fill"></i>NEWS</h2>
             </header>
-            <div class="main-body" id="news-md"></div>
+            <div class="main-body" id="news-md">
+                <h3>Latest Updates</h3>
+                <ul>
+                    <li>There are no enrollment plans for the current academic year (September 2025 to June 2026).</li>
+                    <li>本学年（2025年9月至2026年6月）暂无招生计划。</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+    <!-- Publications - White -->
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="publications">
         <div class="container px-5">
             <header>
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
             </header>
-            <div class="main-body" id="publications-md"></div>
+            <div class="main-body" id="publications-md">
+                <!-- Publications content will be loaded here -->
+            </div>
         </div>
     </section>
 
-    <!-- Conference Papers -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="conference">
+    <!-- Conference Papers - Gray -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="conference">
         <div class="container px-5">
             <header>
                 <h2 id="conference-subtitle"><i class="bi bi-file-earmark-ppt-fill"></i>&nbsp;CONFERENCE PAPERS</h2>
             </header>
-            <div class="main-body" id="conference-md"></div>
+            <div class="main-body" id="conference-md">
+                <h3>Research Interests</h3>
+                <p>Current research focuses include:</p>
+                <ul>
+                    <li>Artificial Intelligence Applications</li>
+                    <li>Data Communication Systems</li>
+                    <li>Human-Computer Interaction</li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -142,7 +160,7 @@
 
     <!-- Content Loading Script -->
     <script>
-        // Function to load content from text files
+        // Function to load content with error handling
         function loadContent(elementId, filePath) {
             fetch(filePath)
                 .then(response => {
@@ -152,16 +170,18 @@
                     return response.text();
                 })
                 .then(text => {
-                    document.getElementById(elementId).innerHTML = marked.parse(text);
+                    // Only update if content exists
+                    if (text.trim().length > 0) {
+                        document.getElementById(elementId).innerHTML = marked.parse(text);
+                    }
                 })
                 .catch(error => {
-                    console.error(error);
-                    document.getElementById(elementId).innerHTML = 
-                        `<p class="text-danger">Error loading content. Please check console for details.</p>`;
+                    console.error('Content load error:', error);
+                    // Don't show error message if we already have default content
                 });
         }
 
-        // Load all sections
+        // Load all sections when DOM is ready
         document.addEventListener('DOMContentLoaded', function() {
             // Load news content
             loadContent('news-md', 'static/content/news.txt');
