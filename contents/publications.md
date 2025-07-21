@@ -1,8 +1,12 @@
-#### Submitted
+#### English
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, K. Fan, Y. Liu, C. Wang, and Q. Niu. LaNCoR: Label Noise-Contrastive Robust Learning for Seismic Signal Processing with Application to Microseismic Arrival Time Picking. <strong>Rej :)</strong> [[Code]](https://github.com/senli1073/LaNCor)
+- <strong>Guo, D.</strong>, Qu, R., Wang, Y., & Xu, J. (2025). Social media and citizen mobilization: How Chinese government agencies use Weibo to advance the 2030 agenda goals on sustainability. ***strong>Public Relations Review***, 51(3), 102579. <strong>(SSCI Q1)<strong>
 
-#### Published
+- Xu, J., Qu, R., Kim, H. K., & <strong>Guo, D (corresponding author).<strong> (2025). Chinese Netizens' Perceptions and Attitudes Towards Carbon Neutrality: A Mixed Methods Study. ***International Journal of Public Opinion Research***, 37(3), edaf034. <strong>(SSCI Q2)<strong>
+
+- <strong>Guo, D.<strong>, Liu, S., & Sun, Y. (2024). Who can help me? Citizens' help-seeking on Weibo during the Shanghai lockdown. ***Disaster Medicine and Public Health Preparedness***, 18, e329.
+
+#### Chinese
 
 - X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
 
