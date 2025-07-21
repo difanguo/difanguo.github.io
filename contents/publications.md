@@ -20,6 +20,8 @@
 
 - Xu, J., **Guo, D.**, Xu, J., & Luo, C. (2023). How do multiple actors conduct science communication about Omicron on Weibo: A mixed-method study. ***Media and Communication***, 11(1), 306-322. **(SSCI Q1)**
 
+- Gao, H., **Guo, D.**, Yin, H., Wu, J., Cao, Z., & Li, L. (2022). Strategies and effectiveness of the Chinese government debunking COVID-19 rumors on Sina Weibo: Evaluating from emotions. ***Journal of Applied Communication Research***, 50(6), 632-654. **(SSCI Q3)**
+
 #### 中文
 
 - 徐敬宏, & **郭迪帆 (通讯作者)**. (2025). 大语言模型在新闻传播学研究中的应用——以数据生成、分析、模拟为例. ***全球传媒学刊***, 12(2), 3–20. **(CSSCI)**
