@@ -16,14 +16,14 @@
 
 .top-section {
     position: relative;
-    padding: 10rem 0;
+    padding: 8rem 0;
     background-position: center;
     background-size: cover;
-    height: 25rem;
+    height: 17rem;
 }
 
 .top-section h2 {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .top-section .top-section-content {
