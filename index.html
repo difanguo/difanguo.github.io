@@ -37,40 +37,6 @@
     <!-- Markdown -->
     <script type="text/javascript" src="static/js/marked.min.js"></script>
 
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
     <!-- Core JS-->
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
@@ -82,7 +48,6 @@
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
@@ -94,12 +59,14 @@
                         <a class="nav-link me-lg-3" href="#page-top">HOME</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#news">NEWS</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#conference">CONFERENCE PAPERS</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -113,7 +80,6 @@
             </div>
         </div>
     </section>
-    <!-- Top Section -->
 
     <!-- Photo -->
     <div class="container px-5">
@@ -121,44 +87,60 @@
             <img class="shadow" src="static/assets/img/photo.png">
         </div>
     </div>
-    <!-- Photo -->
     
-    <!-- Home -->
+    <!-- Home - White -->
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
             <header>
                 <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
             </header>
             <div class="main-body" id="home-md"></div>
         </div>
     </section>
-    <!-- Home -->
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+    <!-- News - Gray -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="news">
+        <div class="container px-5">
+            <header>
+                <h2 id="news-subtitle"><i class="bi bi-award-fill"></i>NEWS</h2>
+            </header>
+            <div class="main-body" id="news-md">
+                <div class="text-center py-4">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p>Loading news...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications - White -->
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="publications">
         <div class="container px-5">
             <header>
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
-
         </div>
     </section>
-    <!-- Publications  -->
 
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
+    <!-- Conference Papers - Gray -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="conference">
         <div class="container px-5">
             <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
+                <h2 id="conference-subtitle"><i class="bi bi-file-earmark-ppt-fill"></i>&nbsp;CONFERENCE PAPERS</h2>
             </header>
-            <div class="main-body" id="awards-md"></div>
-
+            <div class="main-body" id="conference-md">
+                <div class="text-center py-4">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p>Loading conference papers...</p>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- Awards -->
-
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
@@ -172,6 +154,52 @@
         </div>
     </footer>
 
-</body>
+    <!-- Content Loading Script -->
+    <script>
+        // Enhanced content loader with retries
+        async function loadMarkdownContent(elementId, filePath, retries = 3) {
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                
+                const text = await response.text();
+                if (!text.trim()) throw new Error('Empty file content');
+                
+                document.getElementById(elementId).innerHTML = marked.parse(text);
+            } catch (error) {
+                if (retries > 0) {
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                    return loadMarkdownContent(elementId, filePath, retries - 1);
+                }
+                
+                document.getElementById(elementId).innerHTML = `
+                    <div class="alert alert-warning">
+                        <p>Failed to load content from: <code>${filePath}</code></p>
+                        <p>Error: ${error.message}</p>
+                        <p>Please ensure:</p>
+                        <ul>
+                            <li>File exists at <strong>${filePath}</strong></li>
+                            <li>File contains valid Markdown content</li>
+                            <li>Check browser console (F12) for details</li>
+                        </ul>
+                    </div>
+                `;
+                console.error(`Error loading ${filePath}:`, error);
+            }
+        }
 
+        // Load all content when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load news content from contents/news.md
+            loadMarkdownContent('news-md', 'contents/news.md');
+            
+            // Load conference papers from contents/conference.md
+            loadMarkdownContent('conference-md', 'contents/conference.md');
+            
+            // Load other content (publications, home, etc.) as needed...
+            // loadMarkdownContent('publications-md', 'contents/publications.md');
+            // loadMarkdownContent('home-md', 'contents/home.md');
+        });
+    </script>
+</body>
 </html>
