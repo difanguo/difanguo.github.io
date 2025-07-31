@@ -12,11 +12,11 @@
 
 [4] **Guo, D.**, Xu, J., Yuan, Y., & Zeng, X. (2024, Jun 20-24). The New Challenge for Journalism: A Meta-Analytic Review of News Overload and News Avoidance. ***International Communication Association 74th Annual Conference***. Gold Coast, Australia.
 
-[3] **Guo, D.**, & Sun, Y. (2023, May 19-23). Who Can Help Me? Citizens' Help-Seeking on Weibo During the Shanghai 2022 Lockdown. ***International Communication Association 73rd Annual Conference***. Toronto, Canada (virtual).
+[3] Xu, J., Zhou, S., & **Guo, D.** (2024, Jun 20-24). How Do Multiple Chinese Actors Conduct Environmental Communication on World Environment Day (2013-2022): A Mixed Methods Study. ***International Communication Association 74th Annual Conference***. Gold Coast, Australia.
 
 [2] Xu, J., **Guo, D.**, Liu, B., & Ma, J. (2024, Jun 20-24). Concerning for Friends Far Away: An Agenda Analysis of Overseas Panda News on Weibo. ***International Communication Association 74th Annual Conference***. Gold Coast, Australia.
 
-[1] Xu, J., Zhou, S., & **Guo, D.** (2024, Jun 20-24). How Do Multiple Chinese Actors Conduct Environmental Communication on World Environment Day (2013-2022): A Mixed Methods Study. ***International Communication Association 74th Annual Conference***. Gold Coast, Australia.
+[1] **Guo, D.**, & Sun, Y. (2023, May 19-23). Who Can Help Me? Citizens' Help-Seeking on Weibo During the Shanghai 2022 Lockdown. ***International Communication Association 73rd Annual Conference***. Toronto, Canada (virtual).
 
 #### NCA
 

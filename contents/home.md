@@ -6,8 +6,8 @@ Assistant Professor, School of Journalism and Communication, XX University
 Computational Social Science, Health Communication, Risk Communication
 
 #### Education
-Ph.D., School of Journalism and Communication, Beijing Normal University, 2022–2025\
-Joint Ph.D., School of Communication and Information, Nanyang Technological University, 2023–2024
+Ph.D., School of Journalism and Communication, Beijing Normal University, Sep. 2022–Jun. 2025\
+Joint Ph.D., School of Communication and Information, Nanyang Technological University, Aug. 2023–Jul. 2024
 
 #### Contact
 Email: guodifan@163.com
