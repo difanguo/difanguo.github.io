@@ -6,4 +6,4 @@
 #### Teaching Schedule
 
 **No courses will be offered during the current semester (September to December 2025).**  
-**本学期（2025年9月至2025年12月）暂无开设课程。**
+**本学期（2025年9月至2025年12月）<mark>暂无开设课程<mark>。**
