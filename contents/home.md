@@ -5,7 +5,9 @@ School of Journalism and Communication
 XX University
 
 #### Research Interests
-Computational Social Science, Health Communication, Risk Communication
+Computational Social Science  
+Health Communication  
+Risk Communication
 
 #### Education
 Ph.D., School of Journalism and Communication, Beijing Normal University, Sep. 2022–Jun. 2025\
