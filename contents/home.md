@@ -13,8 +13,6 @@ Joint Ph.D., School of Communication and Information, Nanyang Technological Univ
 
 #### Contact
 Email: guodifan@163.com
-
-#### Others
 [Orcid](https://orcid.org/0000-0002-0048-985X) \
 [Google Scholar](https://scholar.google.com/citations?user=qoUv7vYAAAAJ&hl=en&oi=ao)
 
