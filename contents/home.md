@@ -1,8 +1,8 @@
 
 
-**Assistant Professor**  
-**School of Journalism and Communication**  
-**XX University**
+Assistant Professor  
+School of Journalism and Communication  
+XX University
 
 #### Research Interests
 Computational Social Science, Health Communication, Risk Communication
