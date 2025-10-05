@@ -503,67 +503,67 @@ progress {
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 200;
+  line-height: 1.0;
 }
 @media (min-width: 1200px) {
   .display-1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 200;
+  line-height: 1.0;
 }
 @media (min-width: 1200px) {
   .display-2 {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
 }
 
 .display-3 {
   font-size: calc(1.525rem + 3.3vw);
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 200;
+  line-height: 1.0;
 }
 @media (min-width: 1200px) {
   .display-3 {
-    font-size: 4rem;
+    font-size: 2.8rem;
   }
 }
 
 .display-4 {
   font-size: calc(1.475rem + 2.7vw);
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 200;
+  line-height: 1.0;
 }
 @media (min-width: 1200px) {
   .display-4 {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
   }
 }
 
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 200;
+  line-height: 1.0;
 }
 @media (min-width: 1200px) {
   .display-5 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
 .display-6 {
   font-size: calc(1.375rem + 1.5vw);
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 200;
+  line-height: 1.0;
 }
 @media (min-width: 1200px) {
   .display-6 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
 }
 
@@ -10855,8 +10855,8 @@ html {
 
 aside,
 section {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0.8rem;
 }
 
 .app-badge {
@@ -10864,8 +10864,8 @@ section {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   background-color: #fff;
 }
 #mainNav .navbar-brand {
