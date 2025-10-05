@@ -10955,8 +10955,8 @@ footer a:hover, footer a:active, footer a:focus {
         
         .title-section {
             color: #3498db;
-            font-size: 1rem; /* 减小字号 */
-            font-weight: normal; /* 移除加粗 */
+            font-size: 1rem; /* 小字号 */
+            font-weight: normal; /* 不加粗 */
             line-height: 1.8;
         }
         
@@ -10980,7 +10980,6 @@ footer a:hover, footer a:active, footer a:focus {
         h2 {
             color: #2c3e50;
             margin-bottom: 15px;
-            padding-bottom: 8px;
             /* 移除了底部的边框线 */
         }
         
