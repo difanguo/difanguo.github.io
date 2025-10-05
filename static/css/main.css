@@ -1,10 +1,8 @@
 @import "./styles.css";
 
+
 :root{
     --h-title-color:#3948d2;
-    --text-primary: #333333;    /* 添加主文字颜色 */
-    --text-secondary: #666666;  /* 添加次要文字颜色 */
-    --bg-light: #f8f9fa;        /* 添加背景色 */
 }
 
 .header {
@@ -16,80 +14,56 @@
     background-color: var(--h-title-color);
 }
 
-/* 确保顶部区域有足够的高度显示内容 */
-body .top-section {
+.top-section {
     position: relative;
-    padding: 1rem 0 !important;  /* 增加内边距确保内容可见 */
+    padding: 4rem 0;
     background-position: center;
     background-size: cover;
-    height: auto !important;     /* 改为自动高度 */
-    min-height: 2rem;           /* 最小高度保证可见 */
-    background-image: none !important;
-    background-color: #3948d2;
-    color: white !important;     /* 确保文字颜色与背景对比 */
+    height: 8rem;
 }
 
-body .top-section:before {
-    content: "" !important;
+.top-section h2 {
+    font-weight: 200;
+}
+
+.top-section .top-section-content {
+    position: relative;
+    z-index: 1;
+}
+
+.top-section:before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100% !important;
-    background: rgba(57, 72, 210, 0.8) !important;
-    display: none;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-/* 确保标题和内容可见 */
-.top-section h2 {
-    display: block !important;  /* 改为显示标题 */
-    color: white !important;    /* 确保颜色对比 */
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0.5rem 0;
-    text-align: center;
-}
-
-.top-section .top-section-content {
-    display: block !important;  /* 改为显示内容 */
-    color: white !important;
-    text-align: center;
-}
-
-/* 主要内容区域样式优化 */
 section header h2{
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     color: var(--h-title-color);
     font-size: 2.0rem;
     line-height: 3.4rem;
-    margin-bottom: 1rem;
 }
 
 section .main-body{
     font-size: 1.1rem;
-    font-weight: 400;           /* 改为正常字重，避免太细 */
+    font-weight: 170;
     line-height: 1.8rem;
-    color: var(--text-primary); /* 使用定义的主文字颜色 */
 }
 
-/* 确保所有文字内容都有良好的可读性 */
-body {
-    color: var(--text-primary) !important;
-}
-
-p, li, span, div {
-    color: var(--text-primary) !important;
-}
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
-    color: var(--text-primary) !important; /* 确保文字在浅色背景上可见 */
 }
 
 .bg-gradient-primary-to-secondary-gray {
     background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
-    color: var(--text-primary) !important; /* 确保文字在灰色背景上可见 */
 }
+
+
 
 .on-top {
     position: relative;
@@ -98,7 +72,7 @@ p, li, span, div {
 
 .top-bg {
     background-position: center;
-    background-size: cover;     /* 改为cover更合适 */
+    background-size: fill;
     width: 100%;
     height: 60%;
 }
@@ -113,10 +87,11 @@ p, li, span, div {
     background: rgba(0, 0, 0, 0.4);
 }
 
+
 #avatar {
     position: relative;
     height: 0;
-    top: min(-65px, max(-100px, calc(-1*100vw/12)));
+    top:min(-65px,max(-100px,calc(-1*100vw/12)));
     max-width: 30em;
     margin: 0 1.5rem 0 0;
     float: right;
@@ -124,38 +99,14 @@ p, li, span, div {
 }
 
 #avatar img {
-    height: max(130px, min(200px, calc(100vw/6)));
+    height: max(130px,min(200px,calc(100vw/6)));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    border: 2px solid white; /* 添加边框确保头像清晰 */
 }
 
 @media screen and (max-width: 991px) {
     #avatar {
-        margin: 0 auto; /* 居中显示 */
-        float: none;
-        display: block;
-        text-align: center;
-    }
-    
-    /* 移动端文字大小调整 */
-    section header h2 {
-        font-size: 1.6rem;
-        line-height: 2.2rem;
-    }
-    
-    section .main-body {
-        font-size: 1rem;
-        line-height: 1.6rem;
+        margin: 0;
     }
 }
 
-/* 添加额外的可读性保障 */
-* {
-    box-sizing: border-box;
-}
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
