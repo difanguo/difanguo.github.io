@@ -16,19 +16,12 @@
 
 body .top-section {
     position: relative;
-    padding: 1rem 0 !important;
+    padding: 0.2rem 0 !important;  /* 减小内边距 */
     background-position: center;
     background-size: cover;
-    height: 2rem !important;
-}
-
-.top-section h2 {
-    font-weight: 300;
-}
-
-.top-section .top-section-content {
-    position: relative;
-    z-index: 1;
+    height: 0.3rem !important;     /* 设置很小的高度 */
+    background-image: none !important;  /* 移除背景图 */
+    background-color: #3948d2;      /* 设置一条线的颜色 */
 }
 
 body .top-section:before {
@@ -36,9 +29,18 @@ body .top-section:before {
     position: absolute;
     top: 0;
     left: 0;
-    width: 10%;
-    height: 10% !important;
-    background: rgba(0, 0, 0, 0.5);
+    width: 100%;      /* 恢复为100%宽度 */
+    height: 100% !important;
+    background: rgba(57, 72, 210, 0.8) !important;  /* 使用主题色 */
+    display: none;    /* 隐藏遮罩层 */
+}
+
+.top-section h2 {
+    display: none !important;  /* 隐藏标题文字 */
+}
+
+.top-section .top-section-content {
+    display: none !important;  /* 隐藏内容区域 */
 }
 
 section header h2{
