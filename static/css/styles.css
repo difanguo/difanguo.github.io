@@ -10927,42 +10927,61 @@ footer a:hover, footer a:active, footer a:focus {
             color: #333;
             line-height: 1.6;
             padding: 20px;
-            max-width: 900px;
+            width: 100%;
+            max-width: 1200px;
             margin: 0 auto;
         }
         
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
         header {
-            text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eaeaea;
+            text-align: left;
+            margin-bottom: 10px;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
         
         h1 {
             font-size: 2.2rem;
-            margin-bottom: 5px;
+            margin-bottom: 15px;
             color: #2c3e50;
         }
         
         .title-section {
             color: #3498db;
-            font-size: 1.1rem;
-            margin-bottom: 25px;
+            font-size: 1rem; /* 减小字号 */
+            font-weight: normal; /* 移除加粗 */
+            line-height: 1.8;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
         }
         
         section {
-            margin-bottom: 30px;
             background: white;
-            padding: 20px;
+            padding: 25px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .contact-section {
+            grid-column: 1 / -1;
         }
         
         h2 {
             color: #2c3e50;
             margin-bottom: 15px;
             padding-bottom: 8px;
-            border-bottom: 2px solid #f0f0f0;
+            /* 移除了底部的边框线 */
         }
         
         .research-interests ul {
@@ -10992,10 +11011,12 @@ footer a:hover, footer a:active, footer a:focus {
         .contact-links a {
             color: #3498db;
             text-decoration: none;
-            padding: 5px 10px;
+            padding: 8px 15px;
             border: 1px solid #3498db;
             border-radius: 4px;
             transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
         }
         
         .contact-links a:hover {
@@ -11008,9 +11029,14 @@ footer a:hover, footer a:active, footer a:focus {
             margin-top: 40px;
             color: #7f8c8d;
             font-size: 0.9rem;
+            padding: 20px;
         }
         
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+            
             body {
                 padding: 15px;
             }
@@ -11020,53 +11046,55 @@ footer a:hover, footer a:active, footer a:focus {
             }
             
             .title-section {
-                font-size: 1rem;
+                font-size: 0.95rem;
             }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>郭迪帆 (Difan Guo)</h1>
-        <div class="title-section">
-            Assistant Professor<br>
-            School of Journalism and Communication<br>
-            South China University of Technology
+    <div class="container">
+        <header>
+            <h1>Difan Guo | 郭迪帆</h1>
+            <div class="title-section">
+                Assistant Professor<br>
+                School of Journalism and Communication<br>
+                South China University of Technology
+            </div>
+        </header>
+        
+        <div class="content">
+            <section class="research-interests">
+                <h2>研究方向</h2>
+                <ul>
+                    <li>计算社会科学 (Computational Social Science)</li>
+                    <li>健康传播 (Health Communication)</li>
+                    <li>风险传播 (Risk Communication)</li>
+                </ul>
+            </section>
+            
+            <section class="education">
+                <h2>教育背景</h2>
+                <div class="education-item">
+                    <p><strong>博士</strong>，北京师范大学新闻传播学院，2022年9月 - 2025年6月</p>
+                </div>
+                <div class="education-item">
+                    <p><strong>联合培养博士</strong>，南洋理工大学传播与信息学院，2023年8月 - 2024年7月</p>
+                </div>
+            </section>
+            
+            <section class="contact-section">
+                <h2>联系方式</h2>
+                <p>邮箱: guodifan@163.com</p>
+                <div class="contact-links">
+                    <a href="#">Orcid</a>
+                    <a href="#">Google Scholar</a>
+                </div>
+            </section>
         </div>
-    </header>
-    
-    <section class="research-interests">
-        <h2>研究方向</h2>
-        <ul>
-            <li>计算社会科学 (Computational Social Science)</li>
-            <li>健康传播 (Health Communication)</li>
-            <li>风险传播 (Risk Communication)</li>
-        </ul>
-    </section>
-    
-    <section class="education">
-        <h2>教育背景</h2>
-        <div class="education-item">
-            <p><strong>博士</strong>，北京师范大学新闻传播学院，2022年9月 - 2025年6月</p>
-        </div>
-        <div class="education-item">
-            <p><strong>联合培养博士</strong>，南洋理工大学传播与信息学院，2023年8月 - 2024年7月</p>
-        </div>
-    </section>
-    
-    <section class="contact">
-        <h2>联系方式</h2>
-        <p>邮箱: guodifan@163.com</p>
-        <div class="contact-links">
-            <a href="#">Orcid</a>
-            <a href="#">Google Scholar</a>
-        </div>
-    </section>
-    
-    <footer>
-        <p>© 2023 郭迪帆 - 华南理工大学新闻与传播学院</p>
-    </footer>
+        
+        <footer>
+            <p>© 2023 郭迪帆 - 华南理工大学新闻与传播学院</p>
+        </footer>
+    </div>
 </body>
 </html>
-
-
