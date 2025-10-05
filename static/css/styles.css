@@ -10909,6 +10909,19 @@ footer a:hover, footer a:active, footer a:focus {
   text-decoration: underline;
 }
 
+/* 添加在文件末尾或适当位置 */
+.professor-name {
+  font-size: 4rem !important; /* 或者更大的值，如 5rem, 6rem */
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
 
+.professor-title {
+  font-size: 1.25rem !important; /* 或者更小的值，如 1rem */
+  color: #2937f0; /* 灰色，让职业信息不那么突出 */
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
 
 
