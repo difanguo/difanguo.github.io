@@ -2,7 +2,7 @@
 
 Assistant Professor  
 School of Journalism and Communication  
-XX University
+South China University of Technology
 
 #### Research Interests
 Computational Social Science  
