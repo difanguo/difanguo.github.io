@@ -1,6 +1,6 @@
 #### English Journal Papers
 
-[19] **Guo, D.**, Ren, J., Kim, H. K., & Xu, J. (2025). "See How I Did It": Embodied Health Experiences Shared by Cancer Patients on Douyin. ***Health Communication***, 1-12 **(SSCI Q1)**
+[19] **Guo, D.**, Ren, J., Kim, H. K., & Xu, J. (2025). "See How I Did It": Embodied Health Experiences Shared by Cancer Patients on Douyin. ***Health Communication***, 1-12. **(SSCI Q1)**
 
 [18] **Guo, D.**, Qu, R., Wang, Y., & Xu, J. (2025). Social media and citizen mobilization: How Chinese government agencies use Weibo to advance the 2030 agenda goals on sustainability. ***Public Relations Review***, 51(3), 102579. **(SSCI Q1)**
 

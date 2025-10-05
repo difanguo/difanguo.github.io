@@ -10856,7 +10856,7 @@ html {
 aside,
 section {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
 .app-badge {
@@ -10883,9 +10883,9 @@ section {
   font-weight: 600;
   color: #212529;
 }
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-
-   color: var(--bs-blue)
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+.your-professor-info-class {  /* 添加这个新的选择器 */
+  color: var(--bs-blue);
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #2937f0;
