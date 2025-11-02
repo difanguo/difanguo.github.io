@@ -1,5 +1,7 @@
 #### English Journal Papers
 
+[20] **Guo, D.**, Luo, C., Zhou, S., & Xu, J. (2025). Can Fragmented Facts Produce Complete Truth? Exploring Short Video Investigative Journalism from Information Integration Perspective. ***Journalism Practice***, forthcoming. **(SSCI Q2)**
+
 [19] **Guo, D.**, Ren, J., Kim, H. K., & Xu, J. (2025). "See How I Did It": Embodied Health Experiences Shared by Cancer Patients on Douyin. ***Health Communication***, 1-12. **(SSCI Q1)**
 
 [18] **Guo, D.**, Qu, R., Wang, Y., & Xu, J. (2025). Social media and citizen mobilization: How Chinese government agencies use Weibo to advance the 2030 agenda goals on sustainability. ***Public Relations Review***, 51(3), 102579. **(SSCI Q1)**
