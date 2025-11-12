@@ -1,7 +1,8 @@
 #### Graduate Admissions
 
 **I plan to admit 1 academic master's student and 1 professional master's student for the 2026 intake (commencing in September 2026).**  
-**<mark>拟招收1名学术型硕士与1名专业型硕士（2026年9月入学）</mark>。**
+**<mark>拟招收1名学术型硕士和1名专业型硕士（2026年9月入学）</mark>。**
+**<mark>欢迎对计算传播感兴趣或英语水平较好的同学通过邮箱联系我</mark>。**
 
 #### Courses Taught
 
