@@ -1,7 +1,7 @@
 #### Graduate Admissions
 
-**No student admission plans are available for the current year (September 2025 to June 2026).**  
-**<mark>本学年（2025年9月至2026年6月）暂无招生计划</mark>。**
+**I plan to admit 1 academic master's student and 1 professional master's student for the 2026 intake (commencing in September 2026).**  
+**<mark>拟招收1名学术型硕士与1名专业型硕士（2026年9月入学）</mark>。**
 
 #### Courses Taught
 
