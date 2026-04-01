@@ -2,7 +2,7 @@
 
 [21] **Guo, D.**, Ren, J., Kim, H. K., & Xu, J. (2026). "See How I Did It": Embodied Health Experiences Shared by Cancer Patients on Douyin. ***Health Communication***, 41(1), 16-27. **(SSCI Q1)**
 
-[20] Xu, J., Zhou, S., & **Guo, D. (corresponding author)** (2026). How do multiple Chinese actors conduct environmental communication on World Environment Day (2013–2022): a mixed-methods study. Humanities and Social Sciences Communications, 13, 278. **(SSCI Q1)**
+[20] Xu, J., Zhou, S., & **Guo, D. (corresponding author)** (2026). How do multiple Chinese actors conduct environmental communication on World Environment Day (2013–2022): a mixed-methods study. ***Humanities and Social Sciences Communications***, 13, 278. **(SSCI Q1)**
 
 [19] Xu, J., He, Z., **Guo, D. (corresponding author)**, & Ding, Y. (2026). Relationship between news overload and news avoidance: A meta-analysis. ***Journalism***, 27(3), 776-796. **(SSCI Q1)**
 
