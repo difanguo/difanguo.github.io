@@ -1,11 +1,10 @@
 #### 招生信息
 
-**<mark>无</mark>。**  
+**<mark>常年招收学术型与专业性硕士生</mark>。**  
 
 
 #### 新刊录用
-
-Xu, J., Zhou, S., & **Guo, D. (corresponding author)** (2026). How do multiple Chinese actors conduct environmental communication on World Environment Day (2013–2022): a mixed-methods study. ***Humanities and Social Sciences Communications***, forthcoming. **(SSCI Q1)**  
+**Guo, D.**, Yahao, Liu., Yubo, Z., & Xu, J. (2026). Virtual Reality Therapy for Depression and Anxiety Treatment in China: An Integrated Assessment Based on Media Richness Theory and Social Cognitive Theory. ***Asian Journal of Communication***, forthcoming. **(SSCI Q2)**  
 
 
 #### 学生培养
