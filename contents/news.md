@@ -4,7 +4,7 @@
 
 
 #### 新刊录用
-**Guo, D.**, Yahao, Liu., Yubo, Z., & Xu, J. (2026). Virtual Reality Therapy for Depression and Anxiety Treatment in China: An Integrated Assessment Based on Media Richness Theory and Social Cognitive Theory. ***Asian Journal of Communication***, forthcoming. **(SSCI Q2)**  
+**Guo, D.**, Yahao, L., Yubo, Z., & Xu, J. (2026). Virtual Reality Therapy for Depression and Anxiety Treatment in China: An Integrated Assessment Based on Media Richness Theory and Social Cognitive Theory. ***Asian Journal of Communication***, forthcoming. **(SSCI Q2)**  
 
 
 #### 学生培养
