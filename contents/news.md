@@ -5,7 +5,7 @@
 
 #### 新刊录用
 **Guo, D.**, Liu, Y., Zhang, Y., & Xu, J. (2026). Virtual Reality Therapy for Depression and Anxiety Treatment in China: An Integrated Assessment Based on Media Richness Theory and Social Cognitive Theory. ***Asian Journal of Communication***, forthcoming. **(SSCI Q2)**  
-
+Yin, H., & **Guo, D. (corresponding author)** (2026). Understanding Social Media Addiction through the S-O-R Framework: The Mediating Roles of Cognitive and Behavioral Paths ***International Journal of Mental Health Promotion***, forthcoming. **(SSCI Q3)**
 
 #### 学生培养
 
