@@ -4,11 +4,11 @@
 
 [20] Xu, J., Zhou, S., & **Guo, D. (corresponding author)** (2026). How do multiple Chinese actors conduct environmental communication on World Environment Day (2013–2022): a mixed-methods study. ***Humanities and Social Sciences Communications***, 13, 278. **(SSCI Q1)**
 
-[19] Xu, J., He, Z., **Guo, D. (corresponding author)**, & Ding, Y. (2026). Relationship between news overload and news avoidance: A meta-analysis. ***Journalism***, 27(3), 776-796. **(SSCI Q1)**
+[19] **Guo, D.**, Luo, C., Zhou, S., & Xu, J. (2026). Can Fragmented Facts Produce Complete Truth? Exploring Short Video Investigative Journalism from Information Integration Perspective. ***Journalism Practice***, 20(5), 1617-1635. **(SSCI Q2)**
 
-[18] **Guo, D.**, Qu, R., Wang, Y., & Xu, J. (2025). Social media and citizen mobilization: How Chinese government agencies use Weibo to advance the 2030 agenda goals on sustainability. ***Public Relations Review***, 51(3), 102579. **(SSCI Q1)**
+[18] Xu, J., He, Z., **Guo, D. (corresponding author)**, & Ding, Y. (2026). Relationship between news overload and news avoidance: A meta-analysis. ***Journalism***, 27(3), 776-796. **(SSCI Q1)**
 
-[17] **Guo, D.**, Luo, C., Zhou, S., & Xu, J. (2025). Can Fragmented Facts Produce Complete Truth? Exploring Short Video Investigative Journalism from Information Integration Perspective. ***Journalism Practice***, 1-19. **(SSCI Q2)**
+[17] **Guo, D.**, Qu, R., Wang, Y., & Xu, J. (2025). Social media and citizen mobilization: How Chinese government agencies use Weibo to advance the 2030 agenda goals on sustainability. ***Public Relations Review***, 51(3), 102579. **(SSCI Q1)**
 
 [16] Xu, J., Qu, R., Kim, H. K., & **Guo, D. (corresponding author)** (2025). Chinese netizens' perceptions and attitudes towards carbon neutrality: A mixed methods study. ***International Journal of Public Opinion Research***, 37(3), edaf034. **(SSCI Q2)**
 
