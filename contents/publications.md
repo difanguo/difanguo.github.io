@@ -1,12 +1,16 @@
 #### English Journal Papers
 
-[21] **Guo, D.**, Ren, J., Kim, H. K., & Xu, J. (2026). "See How I Did It": Embodied Health Experiences Shared by Cancer Patients on Douyin. ***Health Communication***, 41(1), 16-27. **(SSCI Q1)**
+[23] **Guo, D.**, Ren, J., Kim, H. K., & Xu, J. (2026). "See How I Did It": Embodied Health Experiences Shared by Cancer Patients on Douyin. ***Health Communication***, 41(1), 16-27. **(SSCI Q1)**
 
-[20] Xu, J., Zhou, S., & **Guo, D. (corresponding author)** (2026). How do multiple Chinese actors conduct environmental communication on World Environment Day (2013–2022): a mixed-methods study. ***Humanities and Social Sciences Communications***, 13, 278. **(SSCI Q1)**
+[22] **Guo, D.**, Liu, Y., Zhang, Y., & Xu, J. (2026). Virtual reality therapy for depression and anxiety treatment in China: an integrated assessment based on media richness theory and social cognitive theory. ***Asian Journal of Communication***, 1-20. **(SSCI Q2)**
 
-[19] **Guo, D.**, Luo, C., Zhou, S., & Xu, J. (2026). Can Fragmented Facts Produce Complete Truth? Exploring Short Video Investigative Journalism from Information Integration Perspective. ***Journalism Practice***, 20(5), 1617-1635. **(SSCI Q2)**
+[21] Xu, J., Zhou, S., & **Guo, D. (corresponding author)** (2026). How do multiple Chinese actors conduct environmental communication on World Environment Day (2013–2022): a mixed-methods study. ***Humanities and Social Sciences Communications***, 13, 278. **(SSCI Q1)**
 
-[18] Xu, J., He, Z., **Guo, D. (corresponding author)**, & Ding, Y. (2026). Relationship between news overload and news avoidance: A meta-analysis. ***Journalism***, 27(3), 776-796. **(SSCI Q1)**
+[20] **Guo, D.**, Luo, C., Zhou, S., & Xu, J. (2026). Can Fragmented Facts Produce Complete Truth? Exploring Short Video Investigative Journalism from Information Integration Perspective. ***Journalism Practice***, 20(5), 1617-1635. **(SSCI Q2)**
+
+[19] Xu, J., He, Z., **Guo, D. (corresponding author)**, & Ding, Y. (2026). Relationship between news overload and news avoidance: A meta-analysis. ***Journalism***, 27(3), 776-796. **(SSCI Q1)**
+
+[18] Yin, H., & **Guo, D. (corresponding author)** (2026). Understanding Social Media Addiction through the S-O-R Framework: The Mediating Roles of Cognitive and Behavioral Paths. ***International Journal of Mental Health Promotion***, 1-18. **(SSCI Q3)**
 
 [17] **Guo, D.**, Qu, R., Wang, Y., & Xu, J. (2025). Social media and citizen mobilization: How Chinese government agencies use Weibo to advance the 2030 agenda goals on sustainability. ***Public Relations Review***, 51(3), 102579. **(SSCI Q1)**
 
