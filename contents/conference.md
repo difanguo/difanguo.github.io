@@ -26,6 +26,8 @@
 
 #### IAMCR
 
+[8] **Guo, D.**, Liu, Y., Zhang, Y., & Xu, J. (2026, Jun 28-Jul 2). Virtual Reality Therapy for Depression and Anxiety Treatment in China: An Integrated Assessment Based on Media Richness Theory and Social Cognitive Theory. ***International Association for Media and Communication Research 2026 Conference***. Galway, Ireland.
+
 [7] **Guo, D.** (2024, Jun 30-Jul 4). Debate from the Neighboring Country: A Cross-media Analysis of Chinese Public Opinion on Japan's Nuclear Wastewater Discharge. ***International Association for Media and Communication Research 2024 Conference***. Accepted.
 
 [6] **Guo, D.** (2024, Jun 30-Jul 4). The Video Disinformation in War Coverage in the Age of Social Media. ***International Association for Media and Communication Research 2024 Conference***. Accepted.
